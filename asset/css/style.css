@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Basic&display=swap");
+
+body {
+  font-family: "Basic", sans-serif;
+}
+
+.primary {
+  background-color: #1a455c;
+}
+
+.bg-image {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../asset/img/white-clouds.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-image::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-content {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.m-negative {
+  margin-top: -10px;
+}
+
+#footer {
+  position: absolute;
+  top: 97%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
