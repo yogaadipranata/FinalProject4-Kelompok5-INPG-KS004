@@ -2,10 +2,7 @@
 
 body {
   font-family: "Basic", sans-serif;
-}
-
-.primary {
-  background-color: #1a455c;
+  background-color: #5c6265;
 }
 
 .bg-image {
@@ -18,21 +15,12 @@ body {
   background-position: center;
 }
 
-.bg-image::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.55);
+.primary {
+  background-color: #143e55;
 }
 
-section {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.mt-6 {
+  margin-top: 5rem;
 }
 
 .card-content {
@@ -44,11 +32,4 @@ section {
 
 .m-negative {
   margin-top: -10px;
-}
-
-#footer {
-  position: absolute;
-  top: 97%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
