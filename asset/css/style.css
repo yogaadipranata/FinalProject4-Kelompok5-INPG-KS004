@@ -33,3 +33,12 @@ body {
 .m-negative {
   margin-top: -10px;
 }
+
+#map {
+  height: 65vh;
+  border-radius: 2%;
+}
+
+.leaflet-popup-content-wrapper {
+  width: 100%;
+}
